@@ -1,0 +1,35 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  #top-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgb(215, 216, 216);
+      height: 40px;
+  }
+  
+  section ul li {
+      list-style: none;
+  }
+  
+  .top-section-left ul {
+      display: flex;
+  }
+  
+  .top-section-left ul li {
+      margin-left: 14px;
+      border-right: 1px solid black;
+      padding: 5px;
+  }
+  
+  .top-section-right {
+      display: flex;
+  }
+  
+  #career {
+      border: none;
+  }
