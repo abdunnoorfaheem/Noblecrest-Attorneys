@@ -1,107 +1,154 @@
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
-  
-  #top-section {
-      display: flex;
-      /* align-items: center; */
-      justify-content: space-between;
-      background-color: rgb(215, 216, 216);
-      height: 40px;
-  }
-  
-  section ul li {
-      list-style: none;
-  }
-  
-  .top-section-left ul {
-      display: flex;
-      margin-top: 4px;
-      /* align-items: center; */
-      /* justify-content: center; */
-  }
-  
-  .top-section-left ul li {
-      margin-left: 14px;
-      border-right: 1px solid black;
-      padding: 5px;
-  }
-  
-  .top-section-right {
-      display: flex;
-      align-items: center;
-      /* margin-right: 20px; */
-      color: white;
-  }
-  
-  .top-section,
-  .top-section-right {
-      background-color: rgba(255, 0, 0, 0.623);
-      padding: 10px;
-  }
-  
-  .para-email {
-      margin-right: 10px;
-  }
-  
-  #career {
-      border: none;
-  }
-  
-  .email {
-      margin-right: 10px;
-      text-align: center;
-  }
-  
-  .phone {
-      margin-right: 10px;
-  }
-  /* top bar  */
-  
-  .topBar {
-      display: flex;
-      justify-content: space-between;
-      height: 97px;
-      background-color: #FFFFFF;
-      align-items: center;
-  }
-  
-  .topBar-left {
-      display: flex;
-      align-items: center;
-  }
-  
-  .topBar-left p .imo {
-      font-size: 40px;
-      color: #F3525A;
-      margin-left: 15px;
-  }
-  
-  .topBar-left h1 {
-      font-size: 40px;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: #F3525A;
-      margin-left: 15px;
-  }
-  
-  .topBar-right {
-      /* display: flex; */
-  }
-  
-  .topBar-right-ul {
-      display: flex;
-      font-size: 22px;
-      margin-right: 20px;
-      font-weight: 500;
-  }
-  
-  .topBar-right-ul li {
-      margin-left: 20px;
-  }
-  
-  #home {
-      color: #F3525A;
-  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-section {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: rgb(215, 216, 216);
+    height: 40px;
+}
+
+section ul li {
+    list-style: none;
+}
+
+.top-section-left ul {
+    display: flex;
+    margin-top: 4px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.top-section-left ul li {
+    margin-left: 14px;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+
+.top-section-right {
+    display: flex;
+    align-items: center;
+    /* margin-right: 20px; */
+    color: white;
+}
+
+.top-section,
+.top-section-right {
+    background-color: rgba(255, 0, 0, 0.623);
+    padding: 10px;
+}
+
+.para-email {
+    margin-right: 10px;
+}
+
+#career {
+    border: none;
+}
+
+.email {
+    margin-right: 10px;
+    text-align: center;
+}
+
+.phone {
+    margin-right: 10px;
+}
+
+
+/* top bar  */
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    height: 97px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.topBar-left {
+    display: flex;
+    align-items: center;
+}
+
+.topBar-left p .imo {
+    font-size: 40px;
+    color: #F3525A;
+    margin-left: 15px;
+}
+
+.topBar-left h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #F3525A;
+    margin-left: 15px;
+}
+
+.topBar-right-ul {
+    display: flex;
+    font-size: 22px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.topBar-right-ul li {
+    margin-left: 20px;
+}
+
+#home {
+    color: #F3525A;
+}
+
+
+/* banner */
+
+.banner {
+    height: 900px;
+    background-image: url(../src/assets/img/carousel-1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    color: white;
+}
+
+.banner-container p {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner-container h1 {
+    font-size: 65px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.banner-container-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#banner-btn1 {
+    padding: 16px 48px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 800;
+    background-color: #F3525A;
+}
+
+#banner-btn2 {
+    padding: 16px 48px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 800;
+    margin-left: 15px;
+}
