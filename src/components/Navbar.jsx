@@ -12,12 +12,12 @@ export const Navbar = () => {
   <li id="career">Career</li>
 </ul>
 </div>
-<div className="top-section-right">
-  <p>info@example.com</p>
-  <p>+012 345 6789</p>
+<div className="top-section-right  top-right">
+  <p className="para-email"><i className="fa-solid fa-envelope email"></i>info@example.com</p>
+  <p><i className="fa-solid fa-phone phone"></i>+012 345 6789</p>
 </div>
     </section>
-    // <section></section>
-    // <section></section>
+    
+    
   )
 }
