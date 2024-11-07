@@ -152,3 +152,46 @@ section ul li {
     font-weight: 800;
     margin-left: 15px;
 }
+
+
+/* welcome section style start */
+
+.welcome-left {
+    padding-left: 40px;
+}
+
+.welcome-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.welcome-descriptionOne {
+    font-size: 24px;
+    color: #F3525A;
+    margin-top: 15px;
+}
+
+.welcome-descriptionTwo {
+    margin-top: 10px;
+    color: #6B6A75;
+}
+
+.welcome-btn {
+    padding: 16px 48px;
+    background-color: #F3525A;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+
+/* welcome right section */
+
+.welcome-right {
+    background-color: #F3525A;
+}
+
+
+/* welcome section style end */
